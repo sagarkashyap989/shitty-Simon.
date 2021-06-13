@@ -6,7 +6,7 @@ body {
 .background{
   background-image: url("darksky.jpg");
   background-repeat: no-repeat, repeat;
-  background-size:100% auto;
+  background-size:100%;
 position: relative;
 width: auto;
 
@@ -31,20 +31,23 @@ margin-top: 8px;
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
+  margin-top: 100px;
+
 }
+
 
 .container {
   display: block;
   width: 100%;
-  margin: auto;
+margin-top: 100px;
 padding-top: 30px;
 }
 
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 270px;
+  width: 270px;
   border: 1  0px solid black;
   border-radius: 20%;
 opacity: 70%;
